@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f3f8f7 49.91%,
+    #fff9f5 94.19%
+  );
+  overflow-x: hidden;
+  color: #54575a;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  top: 236px;
+  left: 221px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67px;
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  top: 403px;
+  left: 221px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.63773727416992px;
+  top: 50.2525634765625px;
+  left: 221px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.7173461914062px;
+  height: 309.2696533203125px;
+  top: 229.7303466796875px;
+  left: 683.28271484375px;
+  padding: 0px 0px 0.000003520291102176998px 0px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.app-store-btn img {
+  position: absolute;
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
+  top: 531px;
+  left: 221px;
+}
+
+.google-play-btn img {
+  position: absolute;
+  width: 156.18612670898438px;
+  height: 46.27737045288086px;
+  top: 531px;
+  left: 381.8138732910156px;
+  border: 0.2px solid #ffffff;
+}
+
+.profile-img {
+  position: absolute;
+  width: 224px;
+  height: 444px;
+  top: 686px;
+  left: 737px;
+}
+
+.orders-img {
+  position: absolute;
+  width: 224.00000000000006px;
+  height: 470px;
+  top: 913px;
+  left: 479px;
+  right: 737px;
+}
+
+.home-img {
+  position: absolute;
+  width: 224px;
+  height: 470px;
+  top: 908px;
+  right: 221px;
+  left: 995px;
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  width: 224px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+}
+
+.cart-img {
+  position: absolute;
+  width: 224px;
+  height: 222px;
+  right: 995px;
+  top: 1157px;
+  left: 221px;
+}
+
+/* Background Toggles */
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Backgrounds */
+.background-1 {
+  background-color: #f5f5f5;
+  /*prettier-ignore*/
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23fa8072' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+}
+
+.background-3 {
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(to left, #e2e2e2, #c9d6ff);
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
